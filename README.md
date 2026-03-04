@@ -64,9 +64,9 @@ Make sure you have these installed:
    ```
 
 2. **Set Up the Database** 🗄️  
-   Let's create the database by running the schema script (make sure your MySQL is running!):
-   ```bash
-   mysql -u root -p < schema.sql
+   Let's create the database by running the schema script (make sure your MySQL is running!). If you are using Windows PowerShell, run:
+   ```powershell
+   cmd.exe /c "mysql -u root -p < schema.sql"
    ```
    *(Enter your MySQL password when prompted!)*
 
