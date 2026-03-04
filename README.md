@@ -188,140 +188,120 @@ Make sure you have:
 
 ```bash
 pip install Flask flask-mysqldb
-2️⃣ Setup Database
+### 2️⃣ Setup Database
 
-Make sure MySQL is running.
+Make sure MySQL is running. Run:
 
-Run:
-
+```powershell
 cmd.exe /c "mysql -u root -p < schema.sql"
+```
 
 Enter your MySQL password when prompted.
 
-3️⃣ Configure Database
+### 3️⃣ Configure Database
 
-Open app.py and update:
+Open `app.py` and update:
 
+```python
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_PASSWORD'] = 'admin'  # Change if needed
 app.config['MYSQL_DB'] = 'hostel_db'
-4️⃣ Run The App
+```
+
+### 4️⃣ Run The App
+
+```bash
 python app.py
+```
 
-Open:
+Open your browser to: **`http://127.0.0.1:5000`** and enjoy! 🌸
 
-http://127.0.0.1:5000
+---
 
-And enjoy 🌸
+# 💻 How To Use
 
-💻 How To Use
-🔑 Login
-
+### 🔑 Login
 Default accounts:
+- **Admin**:
+  - Username: `Admin`
+  - Password: `root`
+- **Warden**:
+  - Username: `warden`
+  - Password: `warden123`
 
-Admin:
+### 📊 Dashboard
+See key metrics at a glance:
+- Total Students
+- Room Availability
+- Attendance Stats
+- Pending Fees
 
-Username: Admin
-Password: root
+### 👩‍🎓 Students
+- Add new students
+- Assign rooms
+- View details
+- Manage records
 
-Warden:
+### 🛏 Rooms
+- Track capacity
+- Monitor occupancy
+- See available rooms
 
-Username: warden
-Password: warden123
-📊 Dashboard
+### 📅 Attendance
+- Mark daily presence
+- Review records
 
-See:
+### 💰 Fees
+- Track paid amounts
+- Monitor pending dues
 
-Total Students
+### 👤 Users (Admin Only)
+- Add new wardens
+- Manage access control
 
-Room Availability
+---
 
-Attendance Stats
+# ✨ Features
 
-Pending Fees
+- 🌸 Role-based authentication
+- 🌸 Dynamic dashboard analytics
+- 🌸 Real-time data fetching
+- 🌸 Clean REST-style API
+- 🌸 Responsive UI
+- 🌸 Beautiful modern design
+- 🌸 Organized database structure
 
-👩‍🎓 Students
+---
 
-Add new students
+# 🔐 Security Notes
 
-Assign rooms
+**⚠️ Current version:**
+- Passwords stored in plain text
+- Secret key hardcoded
+- Debug mode enabled
 
-View details
+**For production:**
+- Use password hashing (`werkzeug.security`)
+- Use environment variables
+- Disable debug mode
+- Add validation & error handling
 
-Manage records
+---
 
-🛏 Rooms
+# 🌸 Final Words
 
-Track capacity
-
-Monitor occupancy
-
-See available rooms
-
-📅 Attendance
-
-Mark daily presence
-
-Review records
-
-💰 Fees
-
-Track paid amounts
-
-Monitor pending dues
-
-👤 Users (Admin Only)
-
-Add new wardens
-
-Manage access control
-
-✨ Features
-
-🌸 Role-based authentication
-🌸 Dynamic dashboard analytics
-🌸 Real-time data fetching
-🌸 Clean REST-style API
-🌸 Responsive UI
-🌸 Beautiful modern design
-🌸 Organized database structure
-
-🔐 Security Notes
-
-⚠️ Current version:
-
-Passwords stored in plain text
-
-Secret key hardcoded
-
-Debug mode enabled
-
-For production:
-
-Use password hashing (werkzeug.security)
-
-Use environment variables
-
-Disable debug mode
-
-Add validation & error handling
-
-🌸 Final Words
-
-HMS Pro is more than just a project —
-it’s a blend of logic and elegance.
+HMS Pro is more than just a project — it’s a blend of logic and elegance.
 
 Built with:
-
-💡 Intelligence
-
-🎨 Creativity
-
-💖 Dedication
+- 💡 Intelligence
+- 🎨 Creativity
+- 💖 Dedication
 
 And maybe… just a little extra love for someone special.
 
+<br>
+
 <div align="center">
 💕 Made with care, crafted with passion, and designed to impress 💕
-</div> ```
+</div>
