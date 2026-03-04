@@ -13,12 +13,19 @@ Welcome to the cutest, most organized **Hostel Management System**! 🎀 This pr
 This application is packed with adorable and powerful features! 🌷
 
 *   🎀 **Secure Login & Authentication:** Safe access for Admins and Wardens!
+  
 *   📊 **Sparkling Dashboard:** Get quick stats on students, available rooms, attendance, and pending fees at a single glance! ✨
+  
 *   👩‍🎓 **Student Management:** Keep track of all the lovely residents, their courses, and guardian info.
+
 *   🚪 **Room Allocation:** Manage singles, doubles, and triples effortlessly.
+
 *   📅 **Attendance Tracking:** Mark who is present, absent, or out having fun! ☁️
+
 *   💰 **Fee Management:** A clean overview of total and pending fees for every student.
+
 *   👑 **Role-Based Access:** Special admin-only areas to manage users!
+
 
 ---
 
@@ -36,7 +43,7 @@ The magic behind the scenes! 🪄
 Here is the clean and creative layout of our project files! 🍓
 
 ```text
-d:\system\
+root_dictonary/
 │
 ├── 🌸 app.py           # The heartbeat of the app! Contains all Flask routes and API endpoints.
 ├── 🌸 schema.sql       # The blueprint! Sets up our shiny database and initial mock data.
@@ -75,12 +82,12 @@ Ready to get this cute app up and running? Follow these simple steps! 🍰
 1. Make sure you have **MySQL** installed and running on your machine.
 2. Open your MySQL command line or client (like phpMyAdmin) and run the magical `schema.sql` script. You can run this command in your terminal:
    ```bash
-   mysql -u root -p < schema.sql
+   cmd.exe /c "mysql -u root -p < schema.sql"
    ```
    *(This creates the `hostel_db` database, its shiny tables, and populates it with some cute mock data!)*
 
 ### 2️⃣ Project Requirements 📦
-You'll need Python installed! Open your terminal in the `d:\system` directory and install the necessary Flask packages:
+You'll need Python installed! Open your terminal in the `root_dictonary/` directory and install the necessary Flask packages:
 ```bash
 pip install Flask Flask-MySQLdb
 ```
@@ -113,3 +120,4 @@ Open your favorite web browser and visit:
 <div align="center">
 Made with 💖 and a lot of sparkly code! ✨
 </div>
+
