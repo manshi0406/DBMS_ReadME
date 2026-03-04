@@ -78,6 +78,11 @@ A peek into how we store our precious data (`hostel_db`)! 🦋
 
 Ready to get this cute app up and running? Follow these simple steps! 🍰
 
+
+### Note:
+**In My Opinion Run All The Commands In VScode Terminal OR Antigravity Terminal**
+
+
 ### 1️⃣ Database Setup 🐬
 1. Make sure you have **MySQL** installed and running on your machine.
 2. Open your MySQL command line or client (like phpMyAdmin) and run the magical `schema.sql` script. You can run this command in your terminal:
@@ -120,4 +125,5 @@ Open your favorite web browser and visit:
 <div align="center">
 Made with 💖 and a lot of sparkly code! ✨
 </div>
+
 
